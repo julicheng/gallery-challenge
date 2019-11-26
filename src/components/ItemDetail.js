@@ -8,7 +8,7 @@ class ItemDetail extends Component {
   componentDidMount() {
     const itemId = this.props.match.params.itemid;
     fetch(
-      `http://axielldevtest.eastus2.cloudapp.azure.com:3000/api/media/` + itemId
+      `http://185.121.204.130:8080/api/media/` + itemId
     )
       .then(response => response.json())
       .then(this.printItems)
