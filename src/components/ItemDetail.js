@@ -22,7 +22,7 @@ class ItemDetail extends Component {
     this.setState({
       title: data.title,
       description: data.description,
-      url: data.url
+      url: data.thumbnailUrl
     });
   };
 
