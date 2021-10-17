@@ -1,6 +1,6 @@
 # Gallery Challenge
 
-This is an art gallery app built using React. It uses an API that fetches all the art pieces available and then filters through them by category depending on user input.
+This is an art gallery app built using ReactJS. It uses an API that fetches all the art pieces available and then filters through them by category depending on user input.
 
 ## Features
 
